@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #cc0000;
+  --secondary-color: #7c0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-self;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: var(--primary-color);
+  box-shadow: 3px 3px 10px #888;
+}
+
+.main-header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px;
+}
+
+.main-header .logo {
+  width: 170px;
+  margin-bottom: 16px;
+}
+
+.main-header .search[type="text"] {
+  padding: 7px;
+  width: 300px;
+  border: none;
+  border-radius: 3px;
+}
+
+.sub-header {
+  background-color: var(--secondary-color);
+  color: #fff;
+  box-shadow: 3px 3px 10px #888;
+}
+
+.sub-header img {
+  width: 40px;
+}
